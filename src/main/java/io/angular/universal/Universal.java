@@ -13,18 +13,16 @@ public class Universal {
 
     NashornScriptEngine engine;
 
-    Universal(){
+    Universal() {
         this.engine = (new RequireModule()).angular();
     }
 
-    public  String render(List<Todo> todos) {
+    public String render() {
         try {
-            //Object html = engineHolder.get().invokeFunction("renderServer", todos);
             String html = ":)";
             return String.valueOf(html);
-        }
-        catch (Exception e) {
-            throw new IllegalStateException("failed to render react component", e);
+        } catch (Exception e) {
+            throw new IllegalStateException("failed to render angular component", e);
         }
     }
 
