@@ -17,7 +17,7 @@ public class UniversalTest {
         Universal universal = new Universal();
         String html = universal.render();
 
-        assertThat(html, startsWith("<"));
+        assertThat(html, startsWith(":)"));
 
         //Document doc = Jsoup.parse(html);
         //assertThat(doc.select("div.comment").size(), is(2));

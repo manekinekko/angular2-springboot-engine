@@ -7,8 +7,6 @@ package io.angular.universal;
 import io.angular.universal.io.angular.universal.engine.RequireModule;
 import jdk.nashorn.api.scripting.NashornScriptEngine;
 
-import java.util.List;
-
 public class Universal {
 
     NashornScriptEngine engine;
