@@ -13,12 +13,9 @@ public class UniversalTest {
 
     @Test
     public void testRenderCommentBox() throws Exception {
-        List<Todo> todos = new ArrayList<>();
-        todos.add(new Todo("Peter Parker"));
-        todos.add(new Todo("John Doe"));
 
         Universal universal = new Universal();
-        String html = universal.render(todos);
+        String html = universal.render();
 
         assertThat(html, startsWith("<"));
 
