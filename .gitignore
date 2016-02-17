@@ -43,10 +43,4 @@ test/coverage
 /typings
 /tsd_typings
 
-/modules/universal/client/typings
-/modules/universal/server/typings
-/modules/**/dist
-/modules/**/node_modules
-/modules/**/typings
-/modules/angular2-grunt-prerender/tasks
-
+/target/
